@@ -1,0 +1,157 @@
+body {
+  text-align: center;
+  font-family: "Alegreya", serif;
+  margin: 0;
+}
+
+#header {
+  background-image: url("images/amsterdam-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+#page-title {
+  font-family: "Charm", cursive;
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  background: #3A5754;
+  width: 300px;
+  border-radius: 10px;
+  margin-bottom: 200px;
+}
+
+#header-pg {
+  color: #ffffff;
+  background: #2D3C2F;
+  border-radius: 10px;
+  width: 480px;
+  padding: 6px 36px;
+  margin-bottom: 25px;
+  margin-top: 100px;
+  opacity: 0.8;
+  font-size: 18px;
+}
+
+#section {
+  background: #D9C38C;
+}
+
+#sub-heading {
+  color: #3A5754;
+  font-size: 34px;
+  margin-top: 0;
+  margin-bottom: 0px;
+  padding-top: 40px;
+}
+
+#section img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.bottom-img {
+  object-position: bottom;
+}
+
+#info-section {
+  display: flex;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.info {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #3A5754;
+}
+
+.info h3 {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.info p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  padding: 30px 30px 10px 30px;
+  color: #2D3C2F;
+  background: #D9C38C;
+  text-align: center;
+  border-bottom: 10px solid #3A5754;
+  border-left: 10px solid #3A5754;
+  margin: 0 auto;
+  border-radius: 15px;
+  box-shadow: 7px 5px 5px 5px rgba(0,0,0,0.31);
+}
+
+.avatar {
+  width: 300px;
+  border-radius: 15px;
+  /*box-shadow: 4px 4px 5px 5px rgba(0,0,0,0.31);*/
+  border-bottom: 8px solid #3A5754;
+  border-left: 8px solid #3A5754;
+}
+
+.card-info {
+  padding: 20px;
+  width: 250px;
+  height: 250px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-info h3 {
+  font-size: 25px;
+}
+
+.card-info p,
+.card-info h4 {
+  margin-top: 0;
+}
+
+.avatar:hover {
+  border-bottom: 8px solid #264653;
+  border-left: 8px solid #264653;
+}
+
+#footer {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #C0C5C4;
+}
+
+a {
+  background: #3A5754;
+  color: #C0C5C4;
+  text-decoration: none;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  transition: transform 1s ease;
+  font-size: 16px;
+}
+
+a:hover {
+  background: #C0C5C4;
+  color: #3A5754;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px 1px #000000;
+}
