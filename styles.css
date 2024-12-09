@@ -45,9 +45,12 @@ body {
 #sub-heading {
   color: #3A5754;
   font-size: 36px;
-  margin-top: 0;
-  margin-bottom: 0px;
+  /* margin-top: 0;
+  margin-bottom: 0px; */
   padding-top: 40px;
+  border-bottom: 5px solid #3A5754;
+  width: 320px;
+  margin: 0 auto 50px;
 }
 
 #section img {
@@ -128,11 +131,6 @@ body {
   margin-top: 0;
 }
 
-.avatar:hover {
-  border-bottom: 8px solid #264653;
-  border-left: 8px solid #264653;
-}
-
 #footer {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -146,13 +144,11 @@ a {
   padding: 8px 16px;
   border: none;
   border-radius: 20px;
-  transition: transform 1s ease;
   font-size: 18px;
 }
 
 a:hover {
   background: #C0C5C4;
   color: #3A5754;
-  transform: scale(1.1);
   box-shadow: 0px 0px 10px 1px #000000;
 }
